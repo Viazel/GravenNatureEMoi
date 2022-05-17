@@ -240,10 +240,40 @@ footer a {
 
 /*--------------/GENERAL--------------*/
 
-@media (max-width: 580px) {
+@media (max-width: 724px) {
 
     #slogan {
-        color: red;
+        margin: 0 0 0 80px;
+        width: 400px;
+        font-size: 3rem;
+        line-height: 75px;
+    }
+
+    #all-plants {
+        position: relative;
+        height: 3100px;
+    }
+
+    .our-plants {
+        position: absolute;
+        display: inline-block;
+        top: 4%;
+        height: auto;
+        width: 100%;
+        background: #999;
+    }
+
+    .our-plants-card {
+        height: 500px;
+    }
+
+    header {
+        background-size: cover;
+        height: 400px;
+    }
+
+    header nav a {
+        font-size: 1.5rem;
     }
 
 }
