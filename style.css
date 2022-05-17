@@ -243,14 +243,20 @@ footer a {
 @media (max-width: 724px) {
 
     #slogan {
-        margin: 0 0 0 80px;
-        width: 400px;
+        margin: 30px 30px 0 30px;
+        width: 300px;
         font-size: 3rem;
-        line-height: 75px;
+        line-height: 70px;
+    }
+
+    #logo {
+        height: 50px;
+        margin: 5px;
     }
 
     #all-plants {
         position: relative;
+        margin: 30px 40px 0 40px;
         height: 3100px;
     }
 
@@ -261,6 +267,15 @@ footer a {
         height: auto;
         width: 100%;
         background: #999;
+    }
+    
+    #best-seller {
+        margin: 30px 40px 0 40px;
+        overflow: hidden;
+    }
+    
+    .plants-card {
+        height: 500px;
     }
 
     .our-plants-card {
@@ -273,7 +288,16 @@ footer a {
     }
 
     header nav a {
-        font-size: 1.5rem;
+        font-size: 0.8rem;
+    }
+    
+    footer {
+        margin: 50px 20px 30px 20px;
     }
 
+    footer a, footer p {
+        margin: 0;
+        padding: 0;
+        font-size: 0.8rem;
+    }
 }
