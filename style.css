@@ -243,8 +243,8 @@ footer a {
 @media (max-width: 724px) {
 
     #slogan {
-        margin: 30px 30px 0 30px;
-        width: 300px;
+        margin: 30px 30px 10px 30px;
+        width: 380px;
         font-size: 3rem;
         line-height: 70px;
     }
